@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dummy-app-1-database-config
+data:
+  VECTORDB_HOST: "dummy-app-1-database"
+  VECTORDB_PORT: ""
